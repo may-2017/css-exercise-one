@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-  background-color: yellow;
+  background-color: #f8e71c;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -11,6 +11,7 @@ nav {
 }
 
 section {
+  margin:auto;
   padding-top: 100px;
   width: 60%;
 }
@@ -22,23 +23,23 @@ h1 {
 
 .example {
   padding-top: 30px;
-  text-align: center
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
   padding-top: 30px;
-  text-align: center
+  text-align: center;
 }
 
 .element {
-  background-color: green;
+  background-color: #458002;
   height: 100px;
-  margin: 10px 0;
+  margin: 10px auto;
   width: 100%;
 }
 
 .element:nth-last-child(-n+3) {
-    background-color: crimson;
+    background-color: #f81f1c;
 }
 /* change background-color of the last three elements */
